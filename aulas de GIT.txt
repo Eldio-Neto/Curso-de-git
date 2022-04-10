@@ -1,0 +1,61 @@
+------ Comandos de configuração --------
+git config --global user.name "Eldio Neto"
+git config --global user.email "eldioneto@"
+git config --global core.editor vscode
+
+clear ------------> limpa todo o log
+
+------ Comandos de criar repositorio -------
+
+1º cd/Users/ -----------> seleciona o usuario 
+
+2º cd desktop -----------------> seleciona a parte da area de trabalho do usuario
+
+3º cd nomedapasta -------------------> seleciona uma pasta dentro da area de trabalho 
+
+4º cd../ ------------------> volta a pasta
+
+5º git init ------------> cria um repositorio
+
+6º git status ------------> varredura de arquivos
+
+7º git add . -------------> adiciona todos os arquivos 
+
+8º git commit -m "Primeiro commit" -----------------> adicionar uma descrição do que foi alterado.
+
+9º git log -------------> histórico de commits
+
+10º git reset -soft ------------> volta para o estado antes do ultimo commit * todos os arquivos novos e alterados estão pendentes de commit
+
+11º git reset -mixed ----------> volta para o estado antes de adicionar os novos arquivos/alterações
+
+12º git reset -hard ------------> ignora completamente as novas alterações/arquivos novos. *exclui
+
+13º git branch teste --------------> cria uma nova branch chamada "teste"
+
+14º git checkout teste -------------> troca a branch atual para a branch teste
+
+15º git diff -------------------> coloca tudo que foi mudado em um arquivo no terminal
+
+16º git diff --name-only -----------------> carrega apenas o nome dos arquivos que foram modificados.
+
+17º git diff style.css -----------------> carrega apenas oq foi modificado no arquivo style.css
+
+18º git checkout HEAD --style.css -------------> volta o arquivo para a versão antes da modificação *usado antes de dar o commit
+
+19º .gitignore---> criar um arquivo desse no repositorio e adicionar nele todas as extensões ex: *.sql/*.txt
+
+20º git revert --no-edit codigo do commit que deu problema --------------> pegar o codigo do commit com git log
+
+21º git push origin :teste -----------------------------> deleta a branch teste do repositorio remoto
+
+22º git branch -D teste ---------------------> deletar a branch teste do repositorio local 
+
+23º git pull origin main ---------------------> puxa todas as atualizações que outras pessoas fizeram no repositório
+
+24º git clone url ------------------> clona repositorios 
+
+25º git merge --no-edit -m "nova release" release_v1
+
+
+
